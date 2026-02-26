@@ -42,7 +42,7 @@ This enables quick comparison of transportation modes and healthcare access.
 
 ---
 
-# 🚍 Travel Catchments and Equity Analysis
+# Travel Catchments and Equity Analysis
 
 ## 1. Equity Assessment View
 
