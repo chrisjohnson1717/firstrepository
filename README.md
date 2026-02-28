@@ -13,7 +13,7 @@ Beyond individual users, CareReach Toronto generates actionable insights for urb
 
 This application is designed to evaluate and communicate healthcare accessibility through a sustainable transportation lens, with a particular focus on equity and demographic vulnerability within Toronto. The platform enables users to visualize their nearest hospital bed using public transit and directly compare this with automobile-based accessibility. By integrating travel-time analysis with hospital bed capacity data, the application allows users to identify their closest accessible hospital by transit, assess accessibility scores at the neighbourhood and census tract levels, and examine bed-to-population ratios associated with the nearest hospital. In doing so, the tool supports both individual understanding and system-level evaluation of healthcare access.  
 
-For planners and decision-makers, the application functions as a spatial diagnostic instrument by identifying 15-minute public transit “deserts,” or areas where residents cannot reasonably reach a hospital bed within a defined travel threshold. This provides a clear evidence base for sustainable transportation planning and healthcare infrastructure assessment. A defining characteristic of the platform is its integration of demographic equity analysis, particularly the relationship between sustainable transport accessibility and the age structure of census tracts. Given that older adults are less likely to rely on private vehicles, public transit accessibility becomes a critical determinant of healthcare access. By revealing disparities between older and younger tracts, the application facilitates equity-based transport and healthcare planning, enabling more vulnerable populations to be prioritized in policy development and infrastructure investment decisions.
+For planners and decision-makers, the application functions as a spatial diagnostic instrument by identifying 15-minute public transit “deserts,” or areas where residents cannot reasonably reach a hospital bed within a defined travel threshold. This provides a clear evidence base for sustainable transportation planning and healthcare infrastructure assessment. A defining characteristic of the platform is its integration of demographic equity analysis, particularly the relationship between sustainable transport accessibility and the age structure of census tracts. Given that senior citizens are less likely to be able to rely on private vehicles, public transit accessibility becomes a critical determinant of healthcare access. By revealing disparities between older and younger tracts, the application facilitates equity-based transport and healthcare planning, enabling more vulnerable populations to be prioritized in policy development and infrastructure investment decisions.
 
 ## Methodology and Limitations  
 
@@ -76,7 +76,7 @@ Users can:
 - Click **Load** to filter census tracts within that neighbourhood
 - View associated **public transit travel catchments**
 
-![firstrepository](Select Neighbourhood.JPG)
+![firstrepository](SelectNeighbourhood.JPG)
 
 
 This allows users to:
@@ -92,7 +92,9 @@ When a neighbourhood is selected, the dashboard simultaneously displays:
 - Public transit accessibility score
 - Automobile accessibility score
 - Total population of the selected area
+
 ![firstrepository](CalcStats.JPG)
+
 -This enables quick comparison of transportation modes and healthcare access.
 
 ---
@@ -137,44 +139,20 @@ In the **Hospitals** section, users can:
 
 This enables evaluation of transportation equity in healthcare access.
 
----
-
-# Data Sources
-
-## Geographic Boundary Data
-
-### Toronto Municipal Boundary
-Source: City of Toronto Open Data
-https://open.toronto.ca/dataset/regional-municipal-boundary/
-
-### Toronto Neighbourhood Boundaries
-Source: ArcGIS Hub
-https://hub.arcgis.com/datasets/uji::toronto-neighbourhoods/explore
-
-### Census Tract Boundaries (2021)
-Source: Statistics Canada
-https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21
+![firstrepository](SelectHospital.JPG)
 
 ---
 
-## Population Data (Demand)
+# Data Sources  
 
-**Population by Census Tract**
-Source: Statistics Canada
-https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810001401&geocode=S0503535
-
----
-
-## Hospital Bed Data (Supply)
-
-**Hospital Beds Staffed**
-Source: Canadian Institute for Health Information (CIHI)
-https://www.cihi.ca/en/access-data-and-reports/data-tables?keyword=Hospital+Beds+Staffed&published_date=All&acronyms_databases=All&type_of_care=All&place_of_care=All&population_group=All&health_care_quality=All&health_conditions_outcomes=All&health_system_overview=All&sort_by=field_published_date_value&items_per_page=10
-
----
-
-## Toronto GTFS Data
-
+| Category | Dataset | Source | Link |
+|-----------|----------|---------|------|
+| **Geographic Boundary Data** | Toronto Municipal Boundary | City of Toronto Open Data | https://open.toronto.ca/dataset/regional-municipal-boundary/ |
+|  | Toronto Neighbourhood Boundaries | ArcGIS Hub | https://hub.arcgis.com/datasets/uji::toronto-neighbourhoods/explore |
+|  | Census Tract Boundaries (2021) | Statistics Canada | https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21 |
+| **Population Data (Demand)** | Population by Census Tract | Statistics Canada | https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810001401&geocode=S0503535 |
+| **Hospital Bed Data (Supply)** | Hospital Beds Staffed | Canadian Institute for Health Information (CIHI) | https://www.cihi.ca/en/access-data-and-reports/data-tables?keyword=Hospital+Beds+Staffed&published_date=All&acronyms_databases=All&type_of_care=All&place_of_care=All&population_group=All&health_care_quality=All&health_conditions_outcomes=All&health_system_overview=All&sort_by=field_published_date_value&items_per_page=10 |
+| **Transit Data** | Toronto GTFS Data | Canadian Public Transit Network Database | https://www150.statcan.gc.ca/n1/pub/23-26-0003/232600032025001-eng.htm |
 
 # References
 
@@ -188,11 +166,11 @@ https://www.cihi.ca/en/access-data-and-reports/data-tables?keyword=Hospital+Beds
 
 ⁵ Ontario Ministry of Health, IntelliHealth Ontario. (2024). *Healthy Aging in Toronto, at a glance*.
 
-6. Weiping Luo and Fahui Wang, “Measures of Spatial Accessibility to Health Care in a GIS Environment: Synthesis and a Case Study in the Chicago Region,” *Environment and Planning B: Planning and Design* 30, no. 6 (2003): 865–884, https://doi.org/10.1068/b29120.
+⁶ Weiping Luo and Fahui Wang, “Measures of Spatial Accessibility to Health Care in a GIS Environment: Synthesis and a Case Study in the Chicago Region,” *Environment and Planning B: Planning and Design* 30, no. 6 (2003): 865–884, https://doi.org/10.1068/b29120.
 
-7. Rafael H. M. Pereira, Carlos Kauê Vieira Braga, Luciana Mendes Servo, Bernardo Serra, Pedro Amaral, Nelson Gouveia, and Antonio Paez, “Geographic Access to COVID-19 Healthcare in Brazil Using a Balanced Float Catchment Area Approach,” *Social Science & Medicine* 273 (2021): 113773, https://doi.org/10.1016/j.socscimed.2021.113773.  
+⁷ Rafael H. M. Pereira, Carlos Kauê Vieira Braga, Luciana Mendes Servo, Bernardo Serra, Pedro Amaral, Nelson Gouveia, and Antonio Paez, “Geographic Access to COVID-19 Healthcare in Brazil Using a Balanced Float Catchment Area Approach,” *Social Science & Medicine* 273 (2021): 113773, https://doi.org/10.1016/j.socscimed.2021.113773.  
 
-8. Henry Shaver, Junghwan Kim, Ehab Diab, and Jinhyung Lee, “Bridging the Gap: A Social Equity Analysis of Intra-City Transit Access to Inter-City Rail in Canada,” *Cities* 163 (August 2025): 106041, https://doi.org/10.1016/j.cities.2025.106041.
+⁸ Henry Shaver, Junghwan Kim, Ehab Diab, and Jinhyung Lee, “Bridging the Gap: A Social Equity Analysis of Intra-City Transit Access to Inter-City Rail in Canada,” *Cities* 163 (August 2025): 106041, https://doi.org/10.1016/j.cities.2025.106041.
 Source: Statistics Canada
 https://www150.statcan.gc.ca/n1/pub/23-26-0003/232600032025001-eng.htm
 
