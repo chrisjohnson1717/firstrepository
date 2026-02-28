@@ -1,3 +1,15 @@
+# EquiTransit Champions
+Team Members:
+
+-Chrishma Perera
+
+-Christopher Johnson
+
+# App
+## CareReach Toronto
+
+![firstrepository](.JPG)
+
 # Mission Statement
 
 Having a healthy life is a fundamental aspiration for every person, and equitable physical access to healthcare is central to achieving it. With the adoption of the United Nations Sustainable Development Goals in 2015, Canada is working to ensure its people have well-maintained physical access to healthcare whenever and wherever it's needed. Of these interconnected SDGs, SDGs 3 (Good Health and Well-being), SDG 9 (Industry, Innovation and Infrastructure), and SDG 11 (Sustainable Cities and Communities) collectively contribute to physical access to healthcare in cities¹. Despite promising efforts to improve healthcare access in Canadian cities, significant barriers remain². Particularly for adults aged 65 and older. The structure and performance of both public and private transportation networks directly shape older adults' ability to access hospitals and healthcare facilities safely and efficiently.
