@@ -58,8 +58,11 @@ Census tract centroids, representing demand locations, were snapped to their nea
 ### 1. Healthcare Accessibility Variation
 This view examines variation in healthcare accessibility across Toronto's census tracts.
 - The legend (top left) represents **hospital beds per person** in each tract.
+![firstrepository](Legend.JPG)
 - The histogram shows that **362 census tracts cannot reach a hospital bed within 15 minutes**, regardless of travel mode.
+![firstrepository](Distribution.JPG)
 - This highlights significant spatial gaps in healthcare accessibility.
+
 
 ---
 
@@ -68,6 +71,8 @@ Users can:
 - Select any Toronto neighbourhood from the drop-down menu (bottom left)
 - Click **Load** to filter census tracts within that neighbourhood
 - View associated **public transit travel catchments**
+![firstrepository](Select Neighbourhood.JPG)
+
 
 This allows users to:
 - Identify the most convenient hospital via public transit
@@ -81,10 +86,9 @@ This allows users to:
 When a neighbourhood is selected, the dashboard simultaneously displays:
 - Public transit accessibility score
 - Automobile accessibility score
-- Combined accessibility index
 - Total population of the selected area
-
-This enables quick comparison of transportation modes and healthcare access.
+![firstrepository](CalcStats.JPG)
+-This enables quick comparison of transportation modes and healthcare access.
 
 ---
 
@@ -99,6 +103,9 @@ Key findings:
 When a neighbourhood is selected:
 - Population aged 65+ is calculated
 - Proportion of older adults relative to total population is displayed
+
+![firstrepository](EquityStats.JPG)
+
 
 This allows users to compare healthcare accessibility:
 - Across neighbourhoods
