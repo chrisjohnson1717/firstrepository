@@ -58,9 +58,13 @@ Census tract centroids, representing demand locations, were snapped to their nea
 ### 1. Healthcare Accessibility Variation
 This view examines variation in healthcare accessibility across Toronto's census tracts.
 - The legend (top left) represents **hospital beds per person** in each tract.
+
 ![firstrepository](Legend.JPG)
+
 - The histogram shows that **362 census tracts cannot reach a hospital bed within 15 minutes**, regardless of travel mode.
+
 ![firstrepository](Distribution.JPG)
+
 - This highlights significant spatial gaps in healthcare accessibility.
 
 
@@ -71,6 +75,7 @@ Users can:
 - Select any Toronto neighbourhood from the drop-down menu (bottom left)
 - Click **Load** to filter census tracts within that neighbourhood
 - View associated **public transit travel catchments**
+
 ![firstrepository](Select Neighbourhood.JPG)
 
 
