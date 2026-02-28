@@ -147,7 +147,7 @@ In the **Hospitals** section, users can:
 
 This enables evaluation of transportation equity in healthcare access.
 
-![firstrepository](SelectHospital.JPG)
+![firstrepository](Bedpop.JPG)
 
 ---
 
