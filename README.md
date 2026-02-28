@@ -27,7 +27,7 @@ This application is designed to evaluate and communicate healthcare accessibilit
 
 For planners and decision-makers, the application functions as a spatial diagnostic instrument by identifying 15-minute public transit “deserts,” or areas where residents cannot reasonably reach a hospital bed within a defined travel threshold. This provides a clear evidence base for sustainable transportation planning and healthcare infrastructure assessment. A defining characteristic of the platform is its integration of demographic equity analysis, particularly the relationship between sustainable transport accessibility and the age structure of census tracts. Given that senior citizens are less likely to be able to rely on private vehicles, public transit accessibility becomes a critical determinant of healthcare access. By revealing disparities between older and younger tracts, the application facilitates equity-based transport and healthcare planning, enabling more vulnerable populations to be prioritized in policy development and infrastructure investment decisions.
 
-## Methodology and Limitations  
+## Methodology 
 
 ### 2SFCA  
 
@@ -38,15 +38,13 @@ The 2SFCA method evaluates the balance between healthcare supply and population 
 In the second step, a catchment area is created around each population location, represented by census tract centroids, using the same 15-minute travel threshold. All providers falling within this population-based catchment are identified, and their previously calculated provider-to-population ratios are summed. The resulting value represents the 2SFCA accessibility score for each census tract. Higher scores indicate greater relative accessibility to hospital beds, while lower scores reflect more limited access relative to demand.
 
 
-## Assessing Automobile vs. Public Transit  
+### Assessing Automobile vs. Public Transit  
 
 Automobile 15-minute catchments from census tract centroids and hospital locations were created via network analysis in ArcGIS Pro using the **Generate Travel Areas** tool. For automobile travel, the ArcGIS Online cloud-based network dataset was used to estimate travel times.
 
 To assess public transport accessibility, General Transit Feed Specification (GTFS) data for the City of Toronto were used. The transit dataset includes Toronto Transit Commission (TTC) subway, bus, and streetcar routes and schedules. This network was built and implemented within ArcGIS Pro to generate 15-minute public transit catchments.
 
----
-
-## Equity Assessment  
+### Equity Assessment  
 
 An age-based accessibility ratio was calculated to evaluate equity in healthcare access. The ratio is measured as the average accessibility of older census tracts divided by the average accessibility of younger census tracts.⁷˒⁸ Older tracts are defined as those with a proportion of residents aged 65 and over exceeding the City of Toronto average of 17.1%. A ratio above one indicates that older tracts experience worse accessibility to hospital beds relative to younger tracts.
 
