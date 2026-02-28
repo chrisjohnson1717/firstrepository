@@ -101,7 +101,7 @@ When a neighbourhood is selected, the dashboard simultaneously displays:
 - Automobile accessibility score
 - Total population of the selected area
 
-![firstrepository](CalcStats.JPG)
+![firstrepository](page1stats.JPG)
 
 -This enables quick comparison of transportation modes and healthcare access.
 
