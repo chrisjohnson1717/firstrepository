@@ -6,7 +6,7 @@ Team Members:
 # App
 ## [CareReach Toronto App](https://experience.arcgis.com/experience/108d33ab19b7443997b0f486d101cf3d)
 
-CareReach.png
+![CareReach](images/CareReach.png)
 
 # Mission Statement
 
@@ -67,11 +67,11 @@ Census tract centroids, representing demand locations, were snapped to their nea
 This view examines variation in healthcare accessibility across Toronto's census tracts.
 - The legend (top left) represents **hospital beds per person** in each tract.
 
-![firstrepository](Legend.JPG)
+![Legend](images/Legend.png)
 
 - The histogram shows that **362 census tracts cannot reach a hospital bed within 15 minutes**, regardless of travel mode.
 
-![firstrepository](Distribution.JPG)
+![Distribution](images/Distribution.JPG)
 
 - This highlights significant spatial gaps in healthcare accessibility.
 
@@ -84,7 +84,7 @@ Users can:
 - Click **Load** to filter census tracts within that neighbourhood
 - View associated **public transit travel catchments**
 
-![firstrepository](SelectNeighbourhood.JPG)
+![SelectNeighbourhood](images/SelectNeighbourhood.JPG)
 
 
 This allows users to:
@@ -101,7 +101,7 @@ When a neighbourhood is selected, the dashboard simultaneously displays:
 - Automobile accessibility score
 - Total population of the selected area
 
-![firstrepository](page1stats.JPG)
+![Page1Stats](page1stats.JPG)
 
 -This enables quick comparison of transportation modes and healthcare access.
 
@@ -119,7 +119,7 @@ When a neighbourhood is selected:
 - Population aged 65+ is calculated
 - Proportion of older adults relative to total population is displayed
 
-![firstrepository](EquityStats.JPG)
+![EquityStats](images/EquityStats.JPG)
 
 
 This allows users to compare healthcare accessibility:
@@ -146,8 +146,8 @@ In the **Hospitals** section, users can:
 - Assess differences between sustainable and non-sustainable catchments
 
 This enables evaluation of transportation equity in healthcare access.
-
-![firstrepository](Bedpop.JPG)
+![SelectHospital](images/SelectHospital.JPG)
+![Bedpop](images/Bedpop.JPG)
 
 ---
 
