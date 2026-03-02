@@ -6,7 +6,7 @@ Team Members:
 # App
 ## [CareReach Toronto App](https://experience.arcgis.com/experience/108d33ab19b7443997b0f486d101cf3d)
 
-![firstrepository](CareReach.png)
+CareReach.png
 
 # Mission Statement
 
