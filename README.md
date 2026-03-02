@@ -143,7 +143,7 @@ In the **Residences** section, users can:
 ## 3. Hospital-Based Catchments
 In the **Hospitals** section, users can:
 - Compare hospital service areas by travel mode
-- Examine hospital bed-to-population ratios
+- Examine hospital bed-to-population ratios and population within 15 minutes
 - Assess differences between sustainable and non-sustainable catchments
 
 This enables evaluation of transportation equity in healthcare access.
