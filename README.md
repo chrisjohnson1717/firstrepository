@@ -45,6 +45,7 @@ To assess public transport accessibility, General Transit Feed Specification (GT
 ### Equity Assessment  
 
 An age-based accessibility ratio was calculated to evaluate equity in healthcare access. The ratio is measured as the average accessibility of older census tracts divided by the average accessibility of younger census tracts.⁷˒⁸ Older tracts are defined as those with a proportion of residents aged 65 and over exceeding the City of Toronto average of 17.1%. A ratio above one indicates that older tracts experience worse accessibility to hospital beds relative to younger tracts.
+![EquityChart](images/Age_Accessibility_Ratio_Chart_Colored.png)
 
 ---
 
@@ -67,7 +68,7 @@ Census tract centroids, representing demand locations, were snapped to their nea
 This view examines variation in healthcare accessibility across Toronto's census tracts.
 - The legend (top left) represents **hospital beds per person** in each tract.
 
-![Legend](images/Legend.png)
+![Legend](images/Legend.JPG)
 
 - The histogram shows that **362 census tracts cannot reach a hospital bed within 15 minutes**, regardless of travel mode.
 
