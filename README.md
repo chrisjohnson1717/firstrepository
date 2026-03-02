@@ -29,7 +29,7 @@ For planners and decision-makers, the application functions as a spatial diagnos
 
 ### 2SFCA  
 
-Healthcare accessibility is assessed using the Two-Step Floating Catchment Area (2SFCA) method.⁶ Publicly available Toronto hospital bed counts were used as the measure of healthcare supply, while census tract population counts were used to represent demand. Accessibility is therefore operationalized as a bed-to-population ratio at the census tract level within defined travel-time thresholds.
+Healthcare accessibility is assessed using the Two-Step Floating Catchment Area (2SFCA) method⁶. Publicly available Toronto hospital bed counts were used as the measure of healthcare supply, while census tract population counts were used to represent demand. Accessibility is therefore operationalized as a bed-to-population ratio at the census tract level within defined travel-time thresholds.
 
 The 2SFCA method evaluates the balance between healthcare supply and population demand within floating travel-time catchments. In the first step, a catchment area is created around each healthcare provider (e.g., hospital) using a specified travel-time threshold of 15 minutes, calculated separately for automobile and public transit. The total population within each provider’s catchment is summed, and a provider-to-population ratio is computed by dividing the number of hospital beds by the total population within that catchment. This ratio represents the level of service availability at each provider location.
 
@@ -44,7 +44,7 @@ To assess public transport accessibility, General Transit Feed Specification (GT
 
 ### Equity Assessment  
 
-An age-based accessibility ratio was calculated to evaluate equity in healthcare access. The ratio is measured as the average accessibility of older census tracts divided by the average accessibility of younger census tracts.⁷˒⁸ Older tracts are defined as those with a proportion of residents aged 65 and over exceeding the City of Toronto average of 17.1%. A ratio above one indicates that older tracts experience worse accessibility to hospital beds relative to younger tracts.
+An age-based accessibility ratio was calculated to evaluate equity in healthcare access. The ratio is measured as the average accessibility of older census tracts divided by the average accessibility of younger census tracts⁷˒⁸. Older tracts are defined as those with a proportion of residents aged 65 and over exceeding the City of Toronto average of 17.1%. A ratio above one indicates that older tracts experience worse accessibility to hospital beds relative to younger tracts.
 ![EquityChart](images/Age_Accessibility_Ratio_Chart_Colored.png)
 
 ---
